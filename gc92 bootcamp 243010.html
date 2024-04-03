@@ -1,0 +1,136 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
+
+    <style>
+        /* CSS styles */
+        body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom, #add8e6, #003366); /* Set background color for body */
+}
+
+.column {
+    flex: 1;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent; /* Set background color of columns to transparent */
+}
+    .weather-info {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.weather-info .info {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px; /* Adjust spacing between elements */
+}
+.column.bristol-now {
+    flex-basis: 50%; /* Adjust the width as needed */
+}
+        .column {
+            flex: 1;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .bristol-now {
+            background: linear-gradient(to right, #add8e6, #003366);
+        }
+        .day {
+            background-color: #333;
+        }
+        h1, h2 {font-weight:normal;
+        font-size:34px;}
+    </style>
+</head>
+<body>
+
+<!-- Bristol Now Column -->
+<div class="column bristol-now">
+    <h1>Bristol Now</h1>
+    <img src="sun_and_cloud_img.jpg" alt="Sun and Clouds">
+    <p>8°C / 2°C</p>
+    <div class="weather-info">
+        <!-- Wind -->
+        <div class="info">
+            <img src="wind_icon.jpg" alt="Wind Icon">
+            <p>9 km/h</p>
+            <p>Wind</p>
+        </div>
+        <!-- Rain Probability -->
+        <div class="info">
+            <img src="rain_drop_icon.jpg" alt="Rain Probability Icon">
+            <p>91%</p>
+            <p>Rain Probability</p>
+        </div>
+        <!-- Humidity -->
+        <div class="info">
+            <img src="humid_icon.jpg" alt="Humidity Icon">
+            <p>31%</p>
+            <p>Humidity</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Monday Column -->
+<div class="column day">
+    <h2>Monday</h2>
+    <img src="cloud_rain_icon.jpg" alt="Cloud with Rain Icon">
+    <p>Rain</p>
+    <p>6°C</p>
+<p>0°C</p>
+</div>
+
+<!-- Tuesday Column -->
+<div class="column day">
+    <h2>Tuesday</h2>
+    <img src="snow_icon.jpg" alt="Snow Icon">
+    <p>Snow</p>
+    <p>1°C</p>
+    <p>-4°C</p>
+</div>
+
+<!-- Wednesday Column -->
+<div class="column day">
+    <h2>Wednesday</h2>
+    <img src="snow_icon.jpg" alt="Snow Icon">
+    <p>Snow</p>
+    <p>3°C</p>
+    <p>-4°C</p>
+</div>
+
+    <!-- Thursday Column -->
+<div class="column day">
+    <h2>Thursday</h2>
+    <img src="storm_icon.jpg" alt="Storm Icon">
+    <p>Storm</p>
+    <p>4°C</p>
+    <p>1°C</p>
+</div>
+
+<!-- Friday Column -->
+<div class="column day">
+    <h2>Friday</h2>
+    <img src="rain_icon.jpg" alt="Rain Icon">
+    <p>Rain</p>
+    <p>9°C</p>
+    <p>2°C</p>
+</div>
+
+
+</body></html>
