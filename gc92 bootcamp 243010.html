@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <style>
         /* CSS styles */
         body {
@@ -37,6 +37,10 @@
     flex: 1;
     margin: 0 10px; /* Adjust spacing between elements */
 }
+.info p {
+    font-size: 14px;
+}
+        
 .column.bristol-now {
     flex-basis: 50%; /* Adjust the width as needed */
 }
@@ -54,6 +58,14 @@
         .day {
             background-color: #333;
         }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
         h1, h2 {font-weight:normal;
         font-size:34px;}
     </style>
@@ -68,19 +80,19 @@
     <div class="weather-info">
         <!-- Wind -->
         <div class="info">
-            <img src="wind_icon.jpg" alt="Wind Icon">
+        <span class="material-symbols-outlined">air</span>
             <p>9 km/h</p>
             <p>Wind</p>
         </div>
         <!-- Rain Probability -->
         <div class="info">
-            <img src="rain_drop_icon.jpg" alt="Rain Probability Icon">
+            <span class="material-symbols-outlined">rainy</span>
             <p>91%</p>
             <p>Rain Probability</p>
         </div>
         <!-- Humidity -->
         <div class="info">
-            <img src="humid_icon.jpg" alt="Humidity Icon">
+           <span class="material-symbols-outlined"> water </span>
             <p>31%</p>
             <p>Humidity</p>
         </div>
@@ -90,7 +102,7 @@
     <!-- Monday Column -->
 <div class="column day">
     <h2>Monday</h2>
-    <img src="cloud_rain_icon.jpg" alt="Cloud with Rain Icon">
+   <span class="material-symbols-outlined">rainy</span>
     <p>Rain</p>
     <p>6°C</p>
 <p>0°C</p>
@@ -99,7 +111,7 @@
 <!-- Tuesday Column -->
 <div class="column day">
     <h2>Tuesday</h2>
-    <img src="snow_icon.jpg" alt="Snow Icon">
+    <span class="material-symbols-outlined"> weather_snowy </span>
     <p>Snow</p>
     <p>1°C</p>
     <p>-4°C</p>
@@ -108,7 +120,7 @@
 <!-- Wednesday Column -->
 <div class="column day">
     <h2>Wednesday</h2>
-    <img src="snow_icon.jpg" alt="Snow Icon">
+    <span class="material-symbols-outlined"> weather_snowy </span>
     <p>Snow</p>
     <p>3°C</p>
     <p>-4°C</p>
@@ -117,7 +129,7 @@
     <!-- Thursday Column -->
 <div class="column day">
     <h2>Thursday</h2>
-    <img src="storm_icon.jpg" alt="Storm Icon">
+   <span class="material-symbols-outlined"> thunderstorm </span>
     <p>Storm</p>
     <p>4°C</p>
     <p>1°C</p>
@@ -126,7 +138,7 @@
 <!-- Friday Column -->
 <div class="column day">
     <h2>Friday</h2>
-    <img src="rain_icon.jpg" alt="Rain Icon">
+    <span class="material-symbols-outlined">rainy</span>
     <p>Rain</p>
     <p>9°C</p>
     <p>2°C</p>
