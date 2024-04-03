@@ -1,0 +1,62 @@
+<style>
+        /* CSS styles */
+        body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom, #add8e6, #003366); /* Set background color for body */
+}
+
+.column {
+    flex: 1;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent; /* Set background color of columns to transparent */
+}
+    .weather-info {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+}
+
+.weather-info .info {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px; /* Adjust spacing between elements */
+}
+.info p {
+    font-size: 14px;
+}
+        
+.column.bristol-now {
+    flex-basis: 50%; /* Adjust the width as needed */
+}
+        .column {
+            flex: 1;
+            color: #fff;
+            font-size: 24px;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .bristol-now {
+            background: linear-gradient(to right, #add8e6, #003366);
+        }
+        .day {
+            background-color: #333;
+        }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+        h1, h2 {font-weight:normal;
+        font-size:34px;}
+    </style>
